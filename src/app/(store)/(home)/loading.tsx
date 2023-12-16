@@ -1,0 +1,13 @@
+import Skeleton from '@/components/skeleton';
+
+export default async function HomeLoading() {
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
+  return (
+    <div className='grid h-full grid-cols-9 grid-rows-6 gap-6'>
+      <Skeleton className='col-span-6 row-span-6 h-[860px]' />
+      <Skeleton className='col-span-3 row-span-3' />
+      <Skeleton className='col-span-3 row-span-3' />
+    </div>
+  );
+}
