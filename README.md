@@ -1,4 +1,4 @@
-<h1 id="titulo" align="center">**DevStore**</h1>
+<h1 id="titulo" align="center"><strong>DevStore</strong></h1>
 
 <p align="center" id="badges">
   <!-- STATUS DO PROJETO -->
